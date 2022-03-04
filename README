@@ -1,0 +1,16 @@
+sc.vim
+------
+
+A simple colorscheme for Vim with the bare essentials only.
+
+
+Install
+-------
+
+Install using `plug`
+
+    Plug 'fehawen/sc.vim'
+
+Add the following to your `.vimrc`
+
+    colorscheme sc
