@@ -19,7 +19,7 @@ endif
 
 let colors_name = "sc"
 
-hi User1 ctermfg=0 ctermbg=7 cterm=NONE
+hi User1 ctermfg=0 ctermbg=2 cterm=NONE
 hi User2 ctermfg=0 ctermbg=8 cterm=NONE
 hi User3 ctermfg=0 ctermbg=NONE
 
