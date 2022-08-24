@@ -29,7 +29,7 @@ hi StatusLineTerm ctermfg=0 ctermbg=NONE cterm=NONE
 hi StatusLineTermNC ctermfg=7 ctermbg=NONE cterm=NONE
 
 hi Normal ctermfg=7
-hi Comment ctermfg=8 cterm=ITALIC
+hi Comment ctermfg=8 cterm=NONE
 hi SpecialKey ctermfg=8
 hi EndOfBuffer ctermfg=0
 hi LineNr ctermfg=8 ctermbg=NONE
@@ -50,23 +50,23 @@ hi IncSearch ctermfg=0 ctermbg=7
 hi ColorColumn ctermfg=7 ctermbg=8
 hi Visual ctermfg=0 ctermbg=7
 hi NonText ctermfg=8 cterm=NONE
-hi Todo ctermfg=8 cterm=NONE cterm=ITALIC
+hi Todo ctermfg=8 cterm=NONE cterm=NONE
 
-hi cComment ctermfg=8 cterm=ITALIC
-hi cCommentL ctermfg=8 cterm=ITALIC
-hi cCommentStart ctermfg=8 cterm=ITALIC
-hi shComment ctermfg=8 cterm=ITALIC
-hi typescriptComment ctermfg=8 cterm=ITALIC
-hi typescriptDocComment ctermfg=8 cterm=ITALIC
-hi typescriptLineComment ctermfg=8 cterm=ITALIC
-hi typescriptCommentTodo ctermfg=8 cterm=ITALIC
-hi javaScriptComment ctermfg=8 cterm=ITALIC
-hi javaScriptLineComment ctermfg=8 cterm=ITALIC
-hi xdefaultsComment ctermfg=8 cterm=ITALIC
-hi vimLineComment ctermfg=8 cterm=ITALIC
-hi confComment ctermfg=8 cterm=ITALIC
-hi confTodo ctermfg=8 ctermbg=NONE cterm=ITALIC
-hi pythonTripleQuotes ctermfg=8 ctermbg=NONE cterm=ITALIC
+hi cComment ctermfg=8 cterm=NONE
+hi cCommentL ctermfg=8 cterm=NONE
+hi cCommentStart ctermfg=8 cterm=NONE
+hi shComment ctermfg=8 cterm=NONE
+hi typescriptComment ctermfg=8 cterm=NONE
+hi typescriptDocComment ctermfg=8 cterm=NONE
+hi typescriptLineComment ctermfg=8 cterm=NONE
+hi typescriptCommentTodo ctermfg=8 cterm=NONE
+hi javaScriptComment ctermfg=8 cterm=NONE
+hi javaScriptLineComment ctermfg=8 cterm=NONE
+hi xdefaultsComment ctermfg=8 cterm=NONE
+hi vimLineComment ctermfg=8 cterm=NONE
+hi confComment ctermfg=8 cterm=NONE
+hi confTodo ctermfg=8 ctermbg=NONE cterm=NONE
+hi pythonTripleQuotes ctermfg=8 ctermbg=NONE cterm=NONE
 
 hi ALEError ctermfg=0 ctermbg=1
 hi ALEWarning ctermfg=0 ctermbg=8
