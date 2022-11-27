@@ -19,8 +19,8 @@ endif
 
 let colors_name = "sc"
 
-hi User1 ctermfg=0 ctermbg=7 cterm=NONE
-hi User2 ctermfg=0 ctermbg=8 cterm=NONE
+hi User1 ctermfg=7 ctermbg=NONE cterm=UNDERLINE
+hi User2 ctermfg=8 ctermbg=NONE cterm=UNDERLINE
 hi User3 ctermfg=0 ctermbg=NONE
 
 hi StatusLine ctermfg=6 ctermbg=NONE cterm=NONE
@@ -86,6 +86,12 @@ hi gitcommitBranch ctermfg=6
 hi gitcommitSelectedFile ctermfg=2
 hi gitcommitDiscardedFile ctermfg=3
 hi gitcommitUntrackedFile ctermfg=5
+
+hi typescriptVariableDeclaration cterm=BOLD
+hi typescriptTypeReference cterm=BOLD
+hi typescriptInterfaceName cterm=BOLD
+hi typescriptFuncName cterm=BOLD
+hi typescriptUnion ctermfg=2
 
 if g:sc_highlight_comments_only == 0
     finish
