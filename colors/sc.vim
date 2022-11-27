@@ -87,11 +87,11 @@ hi gitcommitSelectedFile ctermfg=2
 hi gitcommitDiscardedFile ctermfg=3
 hi gitcommitUntrackedFile ctermfg=5
 
-hi typescriptVariableDeclaration cterm=BOLD
-hi typescriptTypeReference cterm=BOLD
-hi typescriptInterfaceName cterm=BOLD
-hi typescriptFuncName cterm=BOLD
-hi typescriptUnion ctermfg=2
+hi typescriptVariableDeclaration ctermfg=7 cterm=BOLD
+hi typescriptTypeReference ctermfg=7 cterm=BOLD
+hi typescriptInterfaceName ctermfg=2 cterm=BOLD
+hi typescriptFuncName ctermfg=7 cterm=BOLD
+hi typescriptUnion ctermfg=1
 
 if g:sc_highlight_comments_only == 0
     finish
