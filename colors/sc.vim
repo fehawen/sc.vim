@@ -35,7 +35,7 @@ hi EndOfBuffer ctermfg=0
 hi LineNr ctermfg=8 ctermbg=NONE
 hi CursorLine ctermfg=NONE ctermbg=0 cterm=NONE
 hi CursorLineNr ctermfg=7 ctermbg=NONE cterm=NONE
-hi Folded ctermfg=0 ctermbg=8
+hi Folded ctermfg=0 ctermbg=3
 hi PMenu ctermfg=7 ctermbg=8
 hi PMenuSel ctermfg=0 ctermbg=1
 hi ErrorMsg ctermfg=1 ctermbg=0
@@ -77,7 +77,7 @@ hi ALEErrorLine ctermfg=NONE ctermbg=NONE
 
 hi NERDTreeOpenable ctermfg=8 ctermbg=NONE
 hi NERDTreeClosable ctermfg=8 ctermbg=NONE
-hi NERDTreeCWD ctermfg=7 ctermbg=NONE cterm=NONE
+hi NERDTreeCWD ctermfg=6 ctermbg=NONE cterm=NONE
 hi NERDTreeDir ctermfg=8 ctermbg=NONE
 hi NERDTreeDirSlash ctermfg=8 ctermbg=NONE
 hi NERDTreeExecFile ctermfg=1 ctermbg=NONE
