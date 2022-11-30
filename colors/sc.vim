@@ -69,7 +69,7 @@ hi confTodo ctermfg=8 ctermbg=NONE cterm=NONE
 hi pythonTripleQuotes ctermfg=8 ctermbg=NONE cterm=NONE
 
 hi ALEError ctermfg=0 ctermbg=1
-hi ALEWarning ctermfg=0 ctermbg=2
+hi ALEWarning ctermfg=0 ctermbg=3
 hi ALEInfo ctermfg=0 ctermbg=4
 hi ALEInfoLine ctermfg=NONE ctermbg=NONE
 hi ALEWarningLine ctermfg=NONE ctermbg=NONE
