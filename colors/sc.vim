@@ -19,8 +19,8 @@ endif
 
 let colors_name = "sc"
 
-hi User1 ctermfg=7 ctermbg=NONE cterm=UNDERLINE
-hi User2 ctermfg=8 ctermbg=NONE cterm=UNDERLINE
+hi User1 ctermfg=0 ctermbg=1 cterm=UNDERLINE
+hi User2 ctermfg=0 ctermbg=8 cterm=UNDERLINE
 hi User3 ctermfg=0 ctermbg=NONE
 
 hi StatusLine ctermfg=6 ctermbg=NONE cterm=NONE
@@ -69,15 +69,15 @@ hi confTodo ctermfg=8 ctermbg=NONE cterm=NONE
 hi pythonTripleQuotes ctermfg=8 ctermbg=NONE cterm=NONE
 
 hi ALEError ctermfg=0 ctermbg=1
-hi ALEWarning ctermfg=0 ctermbg=8
-hi ALEInfo ctermfg=7 ctermbg=NONE
+hi ALEWarning ctermfg=0 ctermbg=2
+hi ALEInfo ctermfg=0 ctermbg=4
 hi ALEInfoLine ctermfg=NONE ctermbg=NONE
 hi ALEWarningLine ctermfg=NONE ctermbg=NONE
 hi ALEErrorLine ctermfg=NONE ctermbg=NONE
 
 hi NERDTreeOpenable ctermfg=8 ctermbg=NONE
 hi NERDTreeClosable ctermfg=8 ctermbg=NONE
-hi NERDTreeCWD ctermfg=6 ctermbg=NONE cterm=NONE
+hi NERDTreeCWD ctermfg=7 ctermbg=NONE cterm=NONE
 hi NERDTreeDir ctermfg=8 ctermbg=NONE
 hi NERDTreeDirSlash ctermfg=8 ctermbg=NONE
 hi NERDTreeExecFile ctermfg=1 ctermbg=NONE
