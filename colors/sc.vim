@@ -19,8 +19,8 @@ endif
 
 let colors_name = "sc"
 
-hi User1 ctermfg=0 ctermbg=1 cterm=UNDERLINE
-hi User2 ctermfg=0 ctermbg=8 cterm=UNDERLINE
+hi User1 ctermfg=0 ctermbg=6 cterm=NONE
+hi User2 ctermfg=0 ctermbg=8 cterm=NONE
 hi User3 ctermfg=0 ctermbg=NONE
 
 hi StatusLine ctermfg=6 ctermbg=NONE cterm=NONE
