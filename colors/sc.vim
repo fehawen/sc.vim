@@ -38,7 +38,7 @@ hi IncSearch ctermfg=0 ctermbg=7
 hi ColorColumn ctermfg=NONE ctermbg=0
 hi SignColumn ctermfg=8 ctermbg=NONE
 
-hi Constant ctermfg=1 cterm=NONE
+hi Constant ctermfg=1 cterm=BOLD
 hi Identifier ctermfg=5 cterm=ITALIC
 hi Function ctermfg=7 cterm=NONE
 hi Statement ctermfg=4 cterm=ITALIC
@@ -58,8 +58,8 @@ hi Directory ctermfg=7 cterm=NONE
 hi PreProc ctermfg=7 cterm=ITALIC
 hi Conditional ctermfg=4 cterm=ITALIC
 hi Boolean ctermfg=1 cterm=ITALIC
-hi StorageClass ctermfg=7 cterm=NONE
-hi Repeat ctermfg=7 cterm=NONE
+hi StorageClass ctermfg=5 cterm=ITALIC
+hi Repeat ctermfg=4 cterm=ITALIC
 hi Title ctermfg=7 cterm=NONE
 hi Exception ctermfg=7 cterm=NONE
 hi Debug ctermfg=7 cterm=NONE
