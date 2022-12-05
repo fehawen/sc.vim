@@ -12,7 +12,7 @@ hi StatusLineTerm ctermfg=0 ctermbg=NONE cterm=NONE
 hi StatusLineTermNC ctermfg=7 ctermbg=NONE cterm=NONE
 
 hi Normal ctermfg=7
-hi Visual ctermfg=0 ctermbg=7
+hi Visual ctermfg=0 ctermbg=7 cterm=NONE
 hi NonText ctermfg=8 cterm=NONE
 hi Todo ctermfg=8 ctermbg=NONE cterm=NONE
 hi Comment ctermfg=8 ctermbg=NONE cterm=ITALIC
@@ -39,21 +39,21 @@ hi ColorColumn ctermfg=NONE ctermbg=0
 hi SignColumn ctermfg=8 ctermbg=NONE
 
 hi Constant ctermfg=1 cterm=NONE
-hi Identifier ctermfg=5 cterm=BOLD
+hi Identifier ctermfg=5 cterm=ITALIC
 hi Function ctermfg=7 cterm=NONE
 hi Statement ctermfg=4 cterm=ITALIC
-hi Type ctermfg=7 cterm=NONE
+hi Type ctermfg=3 cterm=BOLD
 hi String ctermfg=2 cterm=NONE
 hi Import ctermfg=6 cterm=NONE
 hi Special ctermfg=6 cterm=ITALIC
 hi Delimiter ctermfg=7 cterm=NONE
-hi Keyword ctermfg=3 cterm=NONE
+hi Keyword ctermfg=7 cterm=NONE
 hi Question ctermfg=7 cterm=NONE
 hi Number ctermfg=1 cterm=NONE
 hi Operator ctermfg=7 cterm=NONE
 hi Noise ctermfg=7 cterm=NONE
 hi Defined ctermfg=7 cterm=NONE
-hi Label ctermfg=3 cterm=NONE
+hi Label ctermfg=7 cterm=NONE
 hi Directory ctermfg=7 cterm=NONE
 hi PreProc ctermfg=7 cterm=ITALIC
 hi Conditional ctermfg=4 cterm=ITALIC
@@ -61,6 +61,46 @@ hi Boolean ctermfg=1 cterm=ITALIC
 hi StorageClass ctermfg=7 cterm=NONE
 hi Repeat ctermfg=7 cterm=NONE
 hi Title ctermfg=7 cterm=NONE
+hi Exception ctermfg=7 cterm=NONE
+hi Debug ctermfg=7 cterm=NONE
+
+hi htmlTag ctermfg=3 cterm=ITALIC
+hi htmlTagName ctermfg=6 cterm=NONE
+hi javaScriptError ctermfg=7 cterm=NONE
+hi javaScriptSpecial ctermfg=7 cterm=NONE
+hi javaScriptValue ctermfg=7 cterm=NONE
+hi tsxAttrib ctermfg=5 cterm=ITALIC
+hi tsxCloseString ctermfg=3 cterm=ITALIC
+hi tsxEscapeJs ctermfg=7 cterm=NONE
+hi tsxEntity ctermfg=7 cterm=NONE
+hi tsxEqual ctermfg=7 cterm=NONE
+hi tsxString ctermfg=2 cterm=NONE
+hi tsxEntityPunct ctermfg=7 cterm=NONE
+hi tsxFragment ctermfg=7 cterm=NONE
+hi tsxRegion ctermfg=7 cterm=NONE
+hi tsxCommentInvalid ctermfg=1 cterm=BOLD
+hi tsxTagName ctermfg=6 cterm=BOLD
+hi tsxIntrisicTagName ctermfg=7 cterm=NONE
+hi typescriptTypeCast ctermfg=7 cterm=NONE
+hi typescriptInterfaceName ctermfg=3 cterm=BOLD
+hi typescriptTypeReference ctermfg=3 cterm=BOLD,ITALIC
+hi typescriptTypeBrackets ctermfg=7 cterm=NONE
+hi typescriptType ctermfg=7 cterm=NONE
+hi typescriptExpression ctermfg=7 cterm=NONE
+hi typescriptArrowFunc ctermfg=7 cterm=NONE
+hi typescriptMember ctermfg=7 cterm=NONE
+hi typescriptTypeQuery ctermfg=5 cterm=ITALIC
+
+hi clear typescriptAliasDeclaration
+hi link typescriptAliasDeclaration typescriptInterfaceName
+
+hi clear typescriptPredefinedType
+hi link typescriptPredefinedType typescriptTypeReference
+
+hi clear typescriptAliasKeyword
+hi clear typescriptInterfaceKeyword
+hi link typescriptAliasKeyword Special
+hi link typescriptInterfaceKeyword Special
 
 hi link cComment Comment
 hi link cCommentL Comment
@@ -72,6 +112,9 @@ hi link typescriptLineComment Comment
 hi link typescriptCommentTodo Comment
 hi link javaScriptComment Comment
 hi link javaScriptLineComment Comment
+hi link tsxComment Comment
+hi link tsxBlockComment Comment
+hi link tsxLineComment Comment
 hi link xdefaultsComment Comment
 hi link vimLineComment Comment
 hi link confComment Comment
