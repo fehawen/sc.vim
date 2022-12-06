@@ -2,8 +2,8 @@ hi clear
 syntax reset
 let colors_name = "sc"
 
-hi User1 ctermfg=0 ctermbg=6 cterm=NONE
-hi User2 ctermfg=0 ctermbg=8 cterm=NONE
+hi User1 ctermfg=6 ctermbg=0 cterm=NONE
+hi User2 ctermfg=8 ctermbg=0 cterm=NONE
 hi User3 ctermfg=0 ctermbg=NONE
 
 hi StatusLine ctermfg=6 ctermbg=NONE cterm=NONE
