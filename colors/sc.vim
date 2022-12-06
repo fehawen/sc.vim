@@ -21,7 +21,7 @@ hi SpecialKey ctermfg=8
 hi EndOfBuffer ctermfg=0
 hi LineNr ctermfg=8 ctermbg=NONE
 hi CursorLine ctermfg=NONE ctermbg=0 cterm=NONE
-hi CursorLineNr ctermfg=7 ctermbg=NONE cterm=NONE
+hi CursorLineNr ctermfg=7 ctermbg=0 cterm=NONE
 
 hi Folded ctermfg=0 ctermbg=3
 hi PMenu ctermfg=7 ctermbg=8
