@@ -2,14 +2,20 @@ hi clear
 syntax reset
 let colors_name = "sc"
 
-hi User1 ctermfg=6 ctermbg=0 cterm=NONE
-hi User2 ctermfg=8 ctermbg=0 cterm=NONE
-hi User3 ctermfg=0 ctermbg=NONE
+hi User1 ctermfg=1 ctermbg=0 cterm=NONE
+hi User2 ctermfg=2 ctermbg=0 cterm=NONE
+hi User3 ctermfg=3 ctermbg=0 cterm=NONE
+hi User4 ctermfg=4 ctermbg=0 cterm=NONE
+hi User5 ctermfg=5 ctermbg=0 cterm=NONE
+hi User6 ctermfg=6 ctermbg=0 cterm=NONE
+hi User7 ctermfg=7 ctermbg=0 cterm=NONE
+hi User8 ctermfg=8 ctermbg=0 cterm=NONE
+hi User9 ctermfg=0 ctermbg=0
 
-hi StatusLine ctermfg=6 ctermbg=NONE cterm=NONE
-hi StatusLineNC ctermfg=8 ctermbg=NONE cterm=NONE
-hi StatusLineTerm ctermfg=0 ctermbg=NONE cterm=NONE
-hi StatusLineTermNC ctermfg=7 ctermbg=NONE cterm=NONE
+hi StatusLine ctermfg=7 ctermbg=0 cterm=NONE
+hi StatusLineNC ctermfg=8 ctermbg=0 cterm=NONE
+hi StatusLineTerm ctermfg=7 ctermbg=0 cterm=NONE
+hi StatusLineTermNC ctermfg=8 ctermbg=0 cterm=NONE
 
 hi Normal ctermfg=7
 hi Visual ctermfg=0 ctermbg=7 cterm=NONE
@@ -30,7 +36,7 @@ hi ErrorMsg ctermfg=1 ctermbg=0
 hi Error ctermfg=1 ctermbg=0
 hi WarningMsg ctermfg=1 ctermbg=0
 
-hi VertSplit ctermfg=0 ctermbg=NONE cterm=NONE
+hi VertSplit ctermfg=0 ctermbg=0 cterm=NONE
 hi MatchParen ctermfg=7 ctermbg=8
 hi Conceal ctermfg=8 ctermbg=NONE
 hi Search ctermfg=0 ctermbg=7
