@@ -42,7 +42,7 @@ hi MatchParen ctermfg=7 ctermbg=8
 hi Conceal ctermfg=8 ctermbg=NONE
 hi Search ctermfg=0 ctermbg=7
 hi IncSearch ctermfg=0 ctermbg=7
-hi ColorColumn ctermfg=NONE ctermbg=0
+hi ColorColumn ctermfg=0 ctermbg=4
 hi SignColumn ctermfg=8 ctermbg=NONE
 
 hi Constant ctermfg=1 cterm=BOLD
