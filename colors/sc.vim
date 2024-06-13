@@ -17,10 +17,10 @@ hi StatusLineNC ctermfg=8 ctermbg=0 cterm=NONE
 hi StatusLineTerm ctermfg=7 ctermbg=0 cterm=NONE
 hi StatusLineTermNC ctermfg=8 ctermbg=0 cterm=NONE
 
-hi Normal ctermfg=7
+hi Normal ctermfg=7 cterm=NONE
 hi Visual ctermfg=0 ctermbg=7 cterm=NONE
 hi NonText ctermfg=8 cterm=NONE
-hi Todo ctermfg=8 ctermbg=NONE cterm=NONE
+hi Todo ctermfg=8 ctermbg=NONE cterm=ITALIC
 hi Comment ctermfg=8 ctermbg=NONE cterm=ITALIC
 
 hi SpecialKey ctermfg=8
@@ -31,8 +31,8 @@ hi CursorColumn ctermfg=NONE ctermbg=0 cterm=NONE
 hi CursorLineNr ctermfg=7 ctermbg=0 cterm=NONE
 
 hi Folded ctermfg=0 ctermbg=3
-hi PMenu ctermfg=7 ctermbg=8
-hi PMenuSel ctermfg=0 ctermbg=1
+hi PMenu ctermfg=8 ctermbg=NONE
+hi PMenuSel ctermfg=7 ctermbg=0
 hi ErrorMsg ctermfg=1 ctermbg=0
 hi Error ctermfg=1 ctermbg=0
 hi WarningMsg ctermfg=1 ctermbg=0
@@ -45,14 +45,14 @@ hi IncSearch ctermfg=0 ctermbg=7
 hi ColorColumn ctermfg=0 ctermbg=4
 hi SignColumn ctermfg=8 ctermbg=NONE
 
-hi Constant ctermfg=1 cterm=BOLD
-hi Identifier ctermfg=5 cterm=ITALIC
+hi Constant ctermfg=1 cterm=NONE
+hi Identifier ctermfg=5 cterm=NONE
 hi Function ctermfg=6 cterm=NONE
-hi Statement ctermfg=4 cterm=ITALIC
-hi Type ctermfg=3 cterm=BOLD
+hi Statement ctermfg=4 cterm=NONE
+hi Type ctermfg=3 cterm=NONE
 hi String ctermfg=2 cterm=NONE
 hi Import ctermfg=6 cterm=NONE
-hi Special ctermfg=5 cterm=ITALIC
+hi Special ctermfg=5 cterm=NONE
 hi Delimiter ctermfg=7 cterm=NONE
 hi Keyword ctermfg=5 cterm=NONE
 hi Question ctermfg=7 cterm=NONE
@@ -62,22 +62,22 @@ hi Noise ctermfg=7 cterm=NONE
 hi Defined ctermfg=7 cterm=NONE
 hi Label ctermfg=4 cterm=NONE
 hi Directory ctermfg=7 cterm=NONE
-hi PreProc ctermfg=7 cterm=ITALIC
-hi Conditional ctermfg=4 cterm=ITALIC
-hi Boolean ctermfg=1 cterm=ITALIC
-hi StorageClass ctermfg=5 cterm=ITALIC
-hi Repeat ctermfg=4 cterm=ITALIC
+hi PreProc ctermfg=7 cterm=NONE
+hi Conditional ctermfg=4 cterm=NONE
+hi Boolean ctermfg=1 cterm=NONE
+hi StorageClass ctermfg=5 cterm=NONE
+hi Repeat ctermfg=4 cterm=NONE
 hi Title ctermfg=7 cterm=NONE
 hi Exception ctermfg=7 cterm=NONE
 hi Debug ctermfg=7 cterm=NONE
 
-hi htmlTag ctermfg=6 cterm=ITALIC
+hi htmlTag ctermfg=6 cterm=NONE
 hi htmlTagName ctermfg=1 cterm=NONE
 hi javaScriptError ctermfg=7 cterm=NONE
 hi javaScriptSpecial ctermfg=7 cterm=NONE
 hi javaScriptValue ctermfg=7 cterm=NONE
-hi tsxAttrib ctermfg=5 cterm=ITALIC
-hi tsxCloseString ctermfg=3 cterm=ITALIC
+hi tsxAttrib ctermfg=5 cterm=NONE
+hi tsxCloseString ctermfg=3 cterm=NONE
 hi tsxEscapeJs ctermfg=7 cterm=NONE
 hi tsxEntity ctermfg=7 cterm=NONE
 hi tsxEqual ctermfg=6 cterm=NONE
@@ -85,18 +85,18 @@ hi tsxString ctermfg=2 cterm=NONE
 hi tsxEntityPunct ctermfg=7 cterm=NONE
 hi tsxFragment ctermfg=7 cterm=NONE
 hi tsxRegion ctermfg=7 cterm=NONE
-hi tsxCommentInvalid ctermfg=1 cterm=BOLD
-hi tsxTagName ctermfg=3 cterm=BOLD
+hi tsxCommentInvalid ctermfg=1 cterm=NONE
+hi tsxTagName ctermfg=3 cterm=NONE
 hi tsxIntrisicTagName ctermfg=7 cterm=NONE
 hi typescriptTypeCast ctermfg=7 cterm=NONE
-hi typescriptInterfaceName ctermfg=3 cterm=BOLD
-hi typescriptTypeReference ctermfg=3 cterm=BOLD,ITALIC
+hi typescriptInterfaceName ctermfg=3 cterm=NONE
+hi typescriptTypeReference ctermfg=3 cterm=NONE
 hi typescriptTypeBrackets ctermfg=7 cterm=NONE
 hi typescriptType ctermfg=7 cterm=NONE
 hi typescriptExpression ctermfg=7 cterm=NONE
 hi typescriptArrowFunc ctermfg=7 cterm=NONE
 hi typescriptMember ctermfg=4 cterm=NONE
-hi typescriptTypeQuery ctermfg=5 cterm=ITALIC
+hi typescriptTypeQuery ctermfg=5 cterm=NONE
 hi typescriptDotNotation ctermfg=6 cterm=NONE
 hi typescriptObjectLiteral ctermfg=1 cterm=NONE
 
